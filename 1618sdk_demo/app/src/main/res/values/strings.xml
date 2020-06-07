@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SSTUDIO DEMO</string>
+
+    <!--APP CONFIG-->
+    <string name="app_id">2b5431f55eaaf5122cd72756e17dc656</string>
+
+    <!--FACEBOOK CONFIG-->
+    <string name="facebook_app_id">764645947076756</string>
+    <string name="fb_login_protocol_scheme">fb764645947076756</string>
+
+</resources>

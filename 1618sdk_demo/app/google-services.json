@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "376805118839",
+    "firebase_url": "https://sgame-sdk.firebaseio.com",
+    "project_id": "sgame-sdk",
+    "storage_bucket": "sgame-sdk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376805118839:android:13d2021276be34af",
+        "android_client_info": {
+          "package_name": "vn.tinyhands.sgamesdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376805118839-f8qoml0dl0bssr9e1clki4ua9nntfa2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.tinyhands.sgamesdk",
+            "certificate_hash": "ed5a761cec7fb90e926260268a8a526d89b3cd8f"
+          }
+        },
+        {
+          "client_id": "376805118839-cnseget04vr27gnsh62lr9bp4fn6ee2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPXiv73HKNw9DXtXRwOHf-VDl-qMEJvQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376805118839-cnseget04vr27gnsh62lr9bp4fn6ee2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376805118839:android:f8f7b1964d50e219",
+        "android_client_info": {
+          "package_name": "vn.tinyhands.sgamesdkguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376805118839-cnseget04vr27gnsh62lr9bp4fn6ee2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPXiv73HKNw9DXtXRwOHf-VDl-qMEJvQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376805118839:android:d1572d0ec3a13331",
+        "android_client_info": {
+          "package_name": "com.play.manga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37680511ga8839-cnseget04vr27gnsh62lr9bp4fn6ee2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPXiv73HKNw9DXtXRwOHf-VDl-qMEJvQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

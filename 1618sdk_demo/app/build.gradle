@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+//        applicationId "vn.tinyhands.sgamesdkguide"
+        applicationId "com.play.manga"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 4
+        versionName "1.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        jumboMode true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    // sgame sdk
+    implementation 'vn.tinyhands:sdk:0.0.18'
+// support v13
+    implementation 'com.android.support:support-v13:26.1.0'
+    // logger library
+    implementation 'com.jakewharton.timber:timber:4.6.0'
+    // image loader
+    implementation 'com.facebook.fresco:fresco:1.9.0'
+    // facebook sdk
+    implementation 'com.facebook.android:facebook-login:4.28.0'
+    // in app purchase lib
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    // avoid conflict 26.1.0
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.android.support:customtabs:26.1.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
